@@ -1,0 +1,59 @@
+html {
+	position: relative;
+}
+body{
+	margin-bottom: 220px;
+	margin-top: 30px;
+}
+.jumbotron {
+	background-image: url(img/jalan.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+	background-position: 0 -100px;
+}
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 5px white;
+}
+
+.jumbotron img {
+	border: 2px solid gray;
+	width: 150px;
+}
+hr{
+	width: 250px;
+	border: solid 1px gray;
+}
+section {
+	min-height: 600px;
+}
+
+.thumbnail a:hover{
+
+
+}
+.thumbnail h4 {
+	text-align: center;
+}
+footer {
+	position: absolute;
+	background-color: gray;
+	height: 120px;
+	width: 100%;
+	bottom: 0;
+	padding-top: 30px;
+}
+.contact {
+	min-height: 800px;
+}
+
+footer p {
+	color: white;	
+	font-size: 14px;
+}
+footer a {
+	color: white;
+}
+footer i {
+	color: hotpink;
+}
